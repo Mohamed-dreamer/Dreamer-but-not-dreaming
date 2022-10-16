@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    background-size:contain;
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .container{
+    position: absolute;
+    top: 30px;
+    left:300px;
+    width: 50vw;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    border-style: none;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input::placeholder {
+  text-decoration: wavy;
+  size:20px;
+    
+  }
+  button{
+    display: block;
+    width: 240px;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+   border-radius: 10px;
+    border-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+  button a:link{
+    text-decoration: none;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  /* input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+   
+    border-color: white;
+    min-width: 300px;
+  }
+   */
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  .btn{
+    width: 50%;
+    float:left;
+  }

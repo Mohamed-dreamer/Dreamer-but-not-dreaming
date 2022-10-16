@@ -1,0 +1,16 @@
+body{
+    position: relative;
+}
+.card{
+    position: absolute;
+    left:400px;
+    top:100px;
+    padding: 20px;
+    width:250px;
+    height:300px;
+    border:10px solid;
+    border-image: repeating-linear-gradient(30deg,#ffb87a,#ff85ad,#6b66ff 150px);
+}
+/* .card:hover{
+    border-image:repeating-linear-gradient( -30deg,#ffb87a,#ff85ad,#6b66ff 75px)1;
+} */
